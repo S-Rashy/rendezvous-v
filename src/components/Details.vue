@@ -12,6 +12,9 @@ export default{
 
 <template>
     <Header/>
-
+    <div>details </div>
+    <div>details </div>
+    <div>details </div>
+    <div>details </div>
 
 </template>

@@ -1,4 +1,17 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
+import { createMemoryHistory, createRouter } from "vue-router";
+// import Banner from "./components/Banner.vue";
+// import Details from "./components/Details.vue";
 
-createApp(App).mount('#app')
+// const routes = [
+//   { path: "/", component: Banner },
+//   { path: "/about", component: Details },
+// ];
+
+// export const router = createRouter({
+//   history: createMemoryHistory(),
+//   routes,
+// });
+
+createApp(App).use(router).mount("#app");

@@ -32,11 +32,12 @@ export default {
  
  
 <Banner />
-<!-- <div class="p-10 font-semibold text-lg" > Selected Event: {{ selectedEvent? selectedEvent.title : 'no event selected' }} </div> -->
+<div class="p-10 font-semibold text-lg" > Selected Event: {{ selectedEvent? selectedEvent.title : 'no event selected' }} </div>
 <TrendingEvents @select-event ="getSelection"/>
 <Discover/>
 <Footer/>
 <!-- <Details/> -->
+ <!-- <RouterView/> -->
 
 </template>
 
