@@ -31,13 +31,14 @@ export default {
 <template>
  
  
-<Banner />
+<!-- <Banner />
 <div class="p-10 font-semibold text-lg" > Selected Event: {{ selectedEvent? selectedEvent.title : 'no event selected' }} </div>
 <TrendingEvents @select-event ="getSelection"/>
 <Discover/>
-<Footer/>
+<Footer/> -->
 <!-- <Details/> -->
- <!-- <RouterView/> -->
+ <router-link to="/details"> <div>details</div> </router-link>
+ <RouterView/>
 
 </template>
 
