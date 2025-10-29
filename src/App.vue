@@ -38,7 +38,7 @@ export default {
 <Footer/>
 <!-- <Details/> -->
  <!-- <router-link to="/details"> <div>details</div> </router-link> -->
- <!-- <RouterView/> -->
+ <RouterView/>
 
 </template>
 
