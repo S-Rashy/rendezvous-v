@@ -4,14 +4,15 @@ import { createMemoryHistory, createRouter } from "vue-router";
 import Banner from "./components/Banner.vue";
 import Details from "./components/Details.vue";
 
-const routes = [
-  { path: "/", component: Banner },
-  { path: "/details", component: Details },
-];
+// const routes = [
+//   { path: "/", component: Banner },
+//   { path: "/details", component: Details },
+// ];
 
-export const router = createRouter({
-  history: createMemoryHistory(),
-  routes,
-});
+// export const router = createRouter({
+//   history: createMemoryHistory(),
+//   routes,
+// });
 
-createApp(App).use(router).mount("#app");
+// createApp(App).use(router).mount("#app");
+createApp(App).mount("#app");
